@@ -13,6 +13,7 @@ import com.route.islami_c39_gsun_wed.islamiApp.model.suraNamesList
 class QuranFragment : Fragment() {
     private lateinit var binding: FragmentQuranBinding
     private lateinit var adapter: SuraNameAdapter
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
